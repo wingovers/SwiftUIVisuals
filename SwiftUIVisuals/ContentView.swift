@@ -7,16 +7,17 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct MainScreen: View {
     var body: some View {
-        Text("Hello, World!")
-            .frame(maxWidth: .infinity, maxHeight: .infinity)
+        NavigationView {
+            List {
+                NavigationLink(
+                    destination: ImageInvertedMask(),
+                    label: {
+                        Text("Image Inverted Mask")
+                    })
+            }
+        }
     }
 }
 
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
-}

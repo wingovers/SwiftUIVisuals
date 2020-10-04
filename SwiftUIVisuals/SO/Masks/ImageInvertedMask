@@ -1,0 +1,15 @@
+// https://stackoverflow.com/questions/60192357/inverted-mask-swiftui-with-system-image
+
+import SwiftUI
+
+struct ImageInvertedMask: View {
+    var body: some View {
+        Text("Hello, World!")
+    }
+}
+
+struct ImageMask_Previews: PreviewProvider {
+    static var previews: some View {
+        ImageMask()
+    }
+}

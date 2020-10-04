@@ -12,6 +12,7 @@
 		945CDAFD252A7E5C00B62B07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 945CDAFC252A7E5C00B62B07 /* Assets.xcassets */; };
 		945CDB00252A7E5C00B62B07 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 945CDAFF252A7E5C00B62B07 /* Preview Assets.xcassets */; };
 		945CDB03252A7E5C00B62B07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 945CDB01252A7E5C00B62B07 /* Main.storyboard */; };
+		945CDB0F252A7F0F00B62B07 /* ImageInvertedMask in Sources */ = {isa = PBXBuildFile; fileRef = 945CDB0E252A7F0F00B62B07 /* ImageInvertedMask */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		945CDB02252A7E5C00B62B07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		945CDB04252A7E5C00B62B07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		945CDB05252A7E5C00B62B07 /* SwiftUIVisuals.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUIVisuals.entitlements; sourceTree = "<group>"; };
+		945CDB0E252A7F0F00B62B07 /* ImageInvertedMask */ = {isa = PBXFileReference; lastKnownFileType = text; path = ImageInvertedMask; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 		945CDAF7252A7E5B00B62B07 /* SwiftUIVisuals */ = {
 			isa = PBXGroup;
 			children = (
+				945CDB0C252A7EF400B62B07 /* SO */,
 				945CDAF8252A7E5B00B62B07 /* AppDelegate.swift */,
 				945CDAFA252A7E5B00B62B07 /* ContentView.swift */,
 				945CDAFC252A7E5C00B62B07 /* Assets.xcassets */,
@@ -72,6 +75,22 @@
 				945CDAFF252A7E5C00B62B07 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		945CDB0C252A7EF400B62B07 /* SO */ = {
+			isa = PBXGroup;
+			children = (
+				945CDB0D252A7EFF00B62B07 /* Masks */,
+			);
+			path = SO;
+			sourceTree = "<group>";
+		};
+		945CDB0D252A7EFF00B62B07 /* Masks */ = {
+			isa = PBXGroup;
+			children = (
+				945CDB0E252A7F0F00B62B07 /* ImageInvertedMask */,
+			);
+			path = Masks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +165,7 @@
 			files = (
 				945CDAFB252A7E5B00B62B07 /* ContentView.swift in Sources */,
 				945CDAF9252A7E5B00B62B07 /* AppDelegate.swift in Sources */,
+				945CDB0F252A7F0F00B62B07 /* ImageInvertedMask in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
