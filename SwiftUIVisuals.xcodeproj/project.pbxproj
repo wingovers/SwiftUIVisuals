@@ -8,23 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		945CDAF9252A7E5B00B62B07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945CDAF8252A7E5B00B62B07 /* AppDelegate.swift */; };
-		945CDAFB252A7E5B00B62B07 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945CDAFA252A7E5B00B62B07 /* ContentView.swift */; };
+		945CDAFB252A7E5B00B62B07 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945CDAFA252A7E5B00B62B07 /* MainScreen.swift */; };
 		945CDAFD252A7E5C00B62B07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 945CDAFC252A7E5C00B62B07 /* Assets.xcassets */; };
 		945CDB00252A7E5C00B62B07 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 945CDAFF252A7E5C00B62B07 /* Preview Assets.xcassets */; };
 		945CDB03252A7E5C00B62B07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 945CDB01252A7E5C00B62B07 /* Main.storyboard */; };
-		945CDB0F252A7F0F00B62B07 /* ImageInvertedMask in Sources */ = {isa = PBXBuildFile; fileRef = 945CDB0E252A7F0F00B62B07 /* ImageInvertedMask */; };
+		945CDB0F252A7F0F00B62B07 /* Masks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945CDB0E252A7F0F00B62B07 /* Masks.swift */; };
+		9481A4C9252A86F500AF6C54 /* ViewIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9481A4C8252A86F500AF6C54 /* ViewIndex.swift */; };
+		9481A4CD252AAE2A00AF6C54 /* CutoutButtonDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9481A4CC252AAE2A00AF6C54 /* CutoutButtonDemo.swift */; };
+		948A5B1A252B534E00910118 /* UnobservedVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948A5B19252B534E00910118 /* UnobservedVM.swift */; };
+		948A5B21252B537500910118 /* UnobservedObjectDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948A5B20252B537500910118 /* UnobservedObjectDemo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		945CDAF5252A7E5B00B62B07 /* SwiftUIVisuals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIVisuals.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		945CDAF8252A7E5B00B62B07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		945CDAFA252A7E5B00B62B07 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		945CDAFA252A7E5B00B62B07 /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
 		945CDAFC252A7E5C00B62B07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		945CDAFF252A7E5C00B62B07 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		945CDB02252A7E5C00B62B07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		945CDB04252A7E5C00B62B07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		945CDB05252A7E5C00B62B07 /* SwiftUIVisuals.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUIVisuals.entitlements; sourceTree = "<group>"; };
-		945CDB0E252A7F0F00B62B07 /* ImageInvertedMask */ = {isa = PBXFileReference; lastKnownFileType = text; path = ImageInvertedMask; sourceTree = "<group>"; };
+		945CDB0E252A7F0F00B62B07 /* Masks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Masks.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9481A4C8252A86F500AF6C54 /* ViewIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewIndex.swift; sourceTree = "<group>"; };
+		9481A4CC252AAE2A00AF6C54 /* CutoutButtonDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CutoutButtonDemo.swift; sourceTree = "<group>"; };
+		948A5B19252B534E00910118 /* UnobservedVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnobservedVM.swift; sourceTree = "<group>"; };
+		948A5B20252B537500910118 /* UnobservedObjectDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnobservedObjectDemo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +46,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9423A295252A800800DA0DEE /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				945CDAF8252A7E5B00B62B07 /* AppDelegate.swift */,
+				945CDAFA252A7E5B00B62B07 /* MainScreen.swift */,
+				945CDB01252A7E5C00B62B07 /* Main.storyboard */,
+				945CDB04252A7E5C00B62B07 /* Info.plist */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		9423A296252A801F00DA0DEE /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				945CDAFC252A7E5C00B62B07 /* Assets.xcassets */,
+				945CDB05252A7E5C00B62B07 /* SwiftUIVisuals.entitlements */,
+				945CDAFE252A7E5C00B62B07 /* Preview Content */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
 		945CDAEC252A7E5B00B62B07 = {
 			isa = PBXGroup;
 			children = (
@@ -57,14 +86,11 @@
 		945CDAF7252A7E5B00B62B07 /* SwiftUIVisuals */ = {
 			isa = PBXGroup;
 			children = (
+				9481A4C8252A86F500AF6C54 /* ViewIndex.swift */,
+				948A5B18252B533C00910118 /* Reddit */,
 				945CDB0C252A7EF400B62B07 /* SO */,
-				945CDAF8252A7E5B00B62B07 /* AppDelegate.swift */,
-				945CDAFA252A7E5B00B62B07 /* ContentView.swift */,
-				945CDAFC252A7E5C00B62B07 /* Assets.xcassets */,
-				945CDB01252A7E5C00B62B07 /* Main.storyboard */,
-				945CDB04252A7E5C00B62B07 /* Info.plist */,
-				945CDB05252A7E5C00B62B07 /* SwiftUIVisuals.entitlements */,
-				945CDAFE252A7E5C00B62B07 /* Preview Content */,
+				9423A295252A800800DA0DEE /* Main */,
+				9423A296252A801F00DA0DEE /* Assets */,
 			);
 			path = SwiftUIVisuals;
 			sourceTree = "<group>";
@@ -80,17 +106,35 @@
 		945CDB0C252A7EF400B62B07 /* SO */ = {
 			isa = PBXGroup;
 			children = (
-				945CDB0D252A7EFF00B62B07 /* Masks */,
+				945CDB0D252A7EFF00B62B07 /* CutoutButton */,
 			);
 			path = SO;
 			sourceTree = "<group>";
 		};
-		945CDB0D252A7EFF00B62B07 /* Masks */ = {
+		945CDB0D252A7EFF00B62B07 /* CutoutButton */ = {
 			isa = PBXGroup;
 			children = (
-				945CDB0E252A7F0F00B62B07 /* ImageInvertedMask */,
+				9481A4CC252AAE2A00AF6C54 /* CutoutButtonDemo.swift */,
+				945CDB0E252A7F0F00B62B07 /* Masks.swift */,
 			);
-			path = Masks;
+			path = CutoutButton;
+			sourceTree = "<group>";
+		};
+		948A5B18252B533C00910118 /* Reddit */ = {
+			isa = PBXGroup;
+			children = (
+				948A5B25252B5E5400910118 /* UnobservedObject */,
+			);
+			path = Reddit;
+			sourceTree = "<group>";
+		};
+		948A5B25252B5E5400910118 /* UnobservedObject */ = {
+			isa = PBXGroup;
+			children = (
+				948A5B20252B537500910118 /* UnobservedObjectDemo.swift */,
+				948A5B19252B534E00910118 /* UnobservedVM.swift */,
+			);
+			path = UnobservedObject;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,9 +207,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				945CDAFB252A7E5B00B62B07 /* ContentView.swift in Sources */,
+				945CDAFB252A7E5B00B62B07 /* MainScreen.swift in Sources */,
+				9481A4C9252A86F500AF6C54 /* ViewIndex.swift in Sources */,
+				948A5B1A252B534E00910118 /* UnobservedVM.swift in Sources */,
 				945CDAF9252A7E5B00B62B07 /* AppDelegate.swift in Sources */,
-				945CDB0F252A7F0F00B62B07 /* ImageInvertedMask in Sources */,
+				9481A4CD252AAE2A00AF6C54 /* CutoutButtonDemo.swift in Sources */,
+				945CDB0F252A7F0F00B62B07 /* Masks.swift in Sources */,
+				948A5B21252B537500910118 /* UnobservedObjectDemo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,7 +363,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.wingovers.demo.SwiftUIVisuals;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -339,7 +387,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.wingovers.demo.SwiftUIVisuals;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
